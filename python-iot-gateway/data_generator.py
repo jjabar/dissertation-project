@@ -16,7 +16,7 @@ def generate_message() -> dict:
     return [ 
         {
             "sensorTag": "sensor0001",
-            'slug': message,
+            'slug': messages, 
             "longitude":  random.choice(points)[1],
             "latitude":  random.choice(points)[0],
             "temperature": random.choice(temperatures),
